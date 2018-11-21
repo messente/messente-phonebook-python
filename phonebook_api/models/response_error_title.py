@@ -31,6 +31,7 @@ class ResponseErrorTitle(object):
     UNAUTHORIZED = "Unauthorized"
     MISSING_RESOURCE = "Missing resource"
     CONFLICT = "Conflict"
+    CLIENT_ERROR = "Client error"
     GENERAL_ERROR = "General error"
 
     """

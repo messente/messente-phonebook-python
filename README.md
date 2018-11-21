@@ -51,6 +51,7 @@ from phonebook_api import (
     ApiClient,
     Configuration
 )
+from phonebook_api.rest import ApiException
 
 # Configure HTTP basic authorization: basicAuth
 configuration = Configuration()
