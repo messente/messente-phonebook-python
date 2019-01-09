@@ -73,6 +73,11 @@ except ApiException as e:
 #     print("Exception when calling add_to_blacklist: %s\n" % e)
 
 # try:
+#     api_instance.is_blacklisted('+37255555555')
+# except ApiException as e:
+#     print("Exception when calling is_blacklisted: %s\n" % e)
+
+# try:
 #     api_instance.remove_from_blacklist('+37255555555')
 # except ApiException as e:
 #     print("Exception when calling remove_from_blacklist: %s\n" % e)
@@ -86,6 +91,7 @@ Class | Method | HTTP request |
 ------------ | ------------- | ------------- |
 *BlacklistApi* | [**add_to_blacklist**](docs/BlacklistApi.md#add_to_blacklist) | **POST** /phonebook/blacklist |
 *BlacklistApi* | [**fetch_blacklist**](docs/BlacklistApi.md#fetch_blacklist) | **GET** /phonebook/blacklist |
+*BlacklistApi* | [**is_blacklisted**](docs/BlacklistApi.md#is_blacklisted) | **GET** /phonebook/blacklist/{phone_number} |
 *BlacklistApi* | [**remove_from_blacklist**](docs/BlacklistApi.md#remove_from_blacklist) | **DELETE** /phonebook/blacklist/{phone_number} |
 
 
@@ -110,5 +116,3 @@ Class | Method | HTTP request |
 ## Author
 
 messente@messente.com
-
-
